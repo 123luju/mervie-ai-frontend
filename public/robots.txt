@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mervie-ai.vercel.app/sitemap.xml

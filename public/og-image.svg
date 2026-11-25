@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#042f2e"/><stop offset="60%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="180" fill="#f97316" opacity="0.18"/>
+  <circle cx="180" cy="520" r="220" fill="#14b8a6" opacity="0.16"/>
+  <rect x="80" y="80" width="96" height="96" rx="28" fill="#14b8a6"/>
+  <path d="M128 149s-30-18-30-42c0-13.8 9.2-22.5 19.6-22.5 6.2 0 10.9 3 13.9 6.9 3-3.9 7.7-6.9 13.9-6.9 10.4 0 19.6 8.7 19.6 22.5 0 24-30 42-30 42z" fill="#fff"/>
+  <path d="M105 108h14l6-9 9 18 7-11h12" fill="none" stroke="#0f766e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="145" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Mervie AI</text>
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#f0fdfa">AI-Powered Digital Maternal</text>
+  <text x="80" y="335" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#f0fdfa">and Reproductive Healthcare</text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="30" fill="#99f6e4">Intelligence for Maternal Health · Rwanda · Africa · Beyond</text>
+  <text x="80" y="470" font-family="Arial, sans-serif" font-size="24" fill="#ccfbf1">Connecting mothers, midwives, doctors, nurses, and CHWs.</text>
+</svg>

@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --mervie-teal: #0f766e;
+  --mervie-teal-deep: #042f2e;
+  --mervie-coral: #f97316;
+  --mervie-gold: #facc15;
+  --mervie-mist: #f0fdfa;
+  --mervie-ink: #132a2e;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: var(--mervie-ink);
+  background: #f7fffd;
+  overflow-x: hidden;
+}
+.font-display { font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif; }
+.text-gradient {
+  background: linear-gradient(135deg, #0f766e 0%, #14b8a6 45%, #f97316 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero-mesh {
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 0%, rgba(249,115,22,.18), transparent 60%),
+    radial-gradient(ellipse 50% 60% at 0% 100%, rgba(20,184,166,.20), transparent 55%),
+    linear-gradient(160deg, #042f2e 0%, #0b4f4a 45%, #134e4a 100%);
+}
+.glass {
+  background: rgba(255,255,255,.72);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,.6);
+}
+.card-lift { transition: transform .28s ease, box-shadow .28s ease; }
+.card-lift:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(15,118,110,.14); }
+.section-kicker {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--mervie-teal); background: rgba(15,118,110,.08);
+  padding: .45rem .9rem; border-radius: 999px;
+}
+.btn-mervie {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  color: #fff; border: none; font-weight: 700; padding: .85rem 1.5rem; border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(15,118,110,.28); transition: all .25s;
+}
+.btn-mervie:hover { color:#fff; transform: translateY(-2px); box-shadow: 0 14px 36px rgba(15,118,110,.35); }
+.btn-mervie-outline {
+  background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.45);
+  font-weight: 700; padding: .85rem 1.5rem; border-radius: 999px; transition: all .25s;
+}
+.btn-mervie-outline:hover { background: rgba(255,255,255,.12); color:#fff; border-color:#fff; }
+.pulse-dot { width:10px; height:10px; background:#f97316; border-radius:50%; position:relative; }
+.pulse-dot::after { content:''; position:absolute; inset:-4px; border:2px solid #f97316; border-radius:50%; animation:pulse 2s infinite; }
+@keyframes pulse { 0%{transform:scale(.6);opacity:1} 100%{transform:scale(1.8);opacity:0} }
+@keyframes floatY { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+.float-y { animation: floatY 6s ease-in-out infinite; }
+.bg-grid {
+  background-image: linear-gradient(rgba(15,118,110,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(15,118,110,.06) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+.nav-blur { background: rgba(4,47,46,.72); backdrop-filter: blur(16px); }
+.stat-ring { background: conic-gradient(#14b8a6 var(--p), rgba(255,255,255,.12) 0); }
+.lang-select { background: rgba(255,255,255,.1); color:#fff; border:1px solid rgba(255,255,255,.2); border-radius:8px; padding:.35rem .5rem; font-size:.85rem; }
+.lang-select option { color:#132a2e; }

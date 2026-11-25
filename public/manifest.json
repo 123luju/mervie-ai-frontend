@@ -1,0 +1,10 @@
+{
+  "name": "Mervie AI - Intelligence for Maternal Health",
+  "short_name": "Mervie AI",
+  "description": "AI-Powered Digital Maternal and Reproductive Healthcare Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#042f2e",
+  "theme_color": "#0f766e",
+  "icons": [{"src": "/mervie-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
